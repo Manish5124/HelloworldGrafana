@@ -13,11 +13,12 @@ public class HelloworldApplication {
 	@GetMapping(value = "/message")
 	public String getmessage()
 	{
-		return "Hello world!!";
+		return "Hello world2!!";
 	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloworldApplication.class, args);
+
 	}
 
 }
